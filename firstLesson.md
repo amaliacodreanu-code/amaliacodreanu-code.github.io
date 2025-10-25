@@ -14,7 +14,7 @@ Cablul (fie el Crossover sau Straight-Through) se conectează fizic la portul **
 OK, sa revenim la ce facem in Cisco Packet Tracer: 
 
 1.Setam IP-urile pentru fiecare PC:
-assets/SchemaSOHO.png
+![schema_simpla_SOHO](assets/SchemaSOHO.png)
 
 | **Clasa** | **Daca incepe cu...** | **Autocompletare Masca** | Reteaua(Network ID)            | Host(gazda)       |
 | --------- | --------------------- | ------------------------ | ------------------------------ | ----------------- |
