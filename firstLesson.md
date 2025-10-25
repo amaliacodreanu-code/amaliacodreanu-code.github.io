@@ -3,7 +3,7 @@
 
 Vrei sa te joci direct cu reteaua pe care am construit-o? Poti descarca fisierul `.pkt` de aici:
 
-[**Click aici pentru a descarca proiectul Packet Tracer (.pkt)**](assets/first_project.pkt)
+[**Click aici pentru a descarca proiectul de mai jos facut in Packet Tracer (.pkt)**](assets/first_project.pkt)
 
 1.Retele Locale 
 - **SOHO** (Small Office/Home Office) Networks
