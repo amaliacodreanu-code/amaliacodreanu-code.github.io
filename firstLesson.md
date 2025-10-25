@@ -3,7 +3,7 @@
 1.Retele Locale 
 - **SOHO** (Small Office/Home Office) Networks
 - Exemplu de retele SOHO In Cisco Packet Tracer:
-![Schema SOHO cu 2 PC-uri](/assets/retea_SOHO1.png)
+
 
 Cablul ce conecteaza cele doua calculatoare se numeste: **Copper Crossover** (Cablu Incrucisat).
 
@@ -14,7 +14,7 @@ Cablul (fie el Crossover sau Straight-Through) se conectează fizic la portul **
 OK, sa revenim la ce facem in Cisco Packet Tracer: 
 
 1.Setam IP-urile pentru fiecare PC:
-![Setarea IP-ului pentru PC1](/assets/mascaDeRetea.png)
+assets/SchemaSOHO.png
 
 | **Clasa** | **Daca incepe cu...** | **Autocompletare Masca** | Reteaua(Network ID)            | Host(gazda)       |
 | --------- | --------------------- | ------------------------ | ------------------------------ | ----------------- |
