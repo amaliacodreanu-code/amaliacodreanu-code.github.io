@@ -4,7 +4,7 @@
 - **SOHO** (Small Office/Home Office) Networks
 - Exemplu de retele SOHO In Cisco Packet Tracer:
 
-
+![schema_simpla_SOHO](assets/SchemaSOHO.png)
 Cablul ce conecteaza cele doua calculatoare se numeste: **Copper Crossover** (Cablu Incrucisat).
 
 Se foloseste acest tip de cablu cand conectam doua dispozitive de acelasi tip.
@@ -14,7 +14,7 @@ Cablul (fie el Crossover sau Straight-Through) se conectează fizic la portul **
 OK, sa revenim la ce facem in Cisco Packet Tracer: 
 
 1.Setam IP-urile pentru fiecare PC:
-![schema_simpla_SOHO](assets/SchemaSOHO.png)
+![IP](assets/setare_IP1.png)
 
 | **Clasa** | **Daca incepe cu...** | **Autocompletare Masca** | Reteaua(Network ID)            | Host(gazda)       |
 | --------- | --------------------- | ------------------------ | ------------------------------ | ----------------- |
@@ -75,7 +75,7 @@ Daca PC2 primeste pachetul si este functional, el raspunde imediat cu propriul p
 
 Click pe PC1 ->Desktop -> Command Prompt  -> tastam ping urmata de IP-ul celuilalt calculator
 
-![Ping reușit către PC2](/assets/ping1.png)
+![Ping reușit către PC2](assets/setare_IP1.png)
 
 FELICITARIII   ATI REUSIT SA FACEM IMPREUNA PRIMUL PROGRAM IN PACKET TRACER !!!!!!!!!!!!!!!!!!!! XD
 
@@ -83,7 +83,7 @@ OK, poate te inca esti confuz cu acest ping, dar el doar verifica daca functione
 
 Acum hai sa adaugam, o imprimata: 
 
-![Eroare la conectarea imprimantei](/assets/printer_cannot_connect.png)
+![Eroare la conectarea imprimantei](assets/eroare_conectare_imprimanta.png)
 
 De ce credeti ca da eroarea aceasta ?  Hmmmm
 
@@ -97,12 +97,12 @@ Ce este oare un SWITCH ?
 Un device fizic care conecteaza mai multe dispozitive pentru a crea o retea locala LAN(Local Area Network). In contextul actual ne trebuie un asemenea device deoarece, cum am precizat mai sus vrem sa conectam calculatoarele la imprimanta si nu avem cum. Cu ajutorul switch-ului conectam calculatoarele la acesta si dupa switch-ul la imprimanta. 
 
 Deci tot in acelasi proiect in packet tracer adaugam o imprimanta dar si un switch.
-![Schema SOHO cu Switch și Imprimantă](/assets/Soho_cu_imprimanta.png)
+![Schema SOHO cu Switch și Imprimantă](assets/SchemaSohoCuImprimanta.png)
 Calculatoarele le-am configurat mai sus acum ramane doar imprimanta. Intai sa ne gandim la o adresa IPv4 pentru aceasta, 192.168.1.12. 
 Pentru a configura adresa IP la imprimanta dam click pe aceasta -> Config ->FastEthernet0 
 
 
-![Configurare IP Imprimantă](/assets/config_printer.png)
+![Configurare IP Imprimantă](assets/ConfigurareImprimanta.png)
 
 
 Inchidem fereastra, apasam pe PC1 si vedem daca imprimanta este detectabila. 
