@@ -75,7 +75,7 @@ Daca PC2 primeste pachetul si este functional, el raspunde imediat cu propriul p
 
 Click pe PC1 ->Desktop -> Command Prompt  -> tastam ping urmata de IP-ul celuilalt calculator
 
-![Ping reușit către PC2](assets/setare_IP1.png)
+![Ping reușit către PC2](assets/ping_PC2.png)
 
 FELICITARIII   ATI REUSIT SA FACEM IMPREUNA PRIMUL PROGRAM IN PACKET TRACER !!!!!!!!!!!!!!!!!!!! XD
 
