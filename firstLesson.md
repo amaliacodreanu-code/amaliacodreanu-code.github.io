@@ -3,7 +3,7 @@
 1.Retele Locale 
 - **SOHO** (Small Office/Home Office) Networks
 - Exemplu de retele SOHO In Cisco Packet Tracer:
-![[retea_SOHO1.png]]
+![Schema SOHO cu 2 PC-uri](/assets/retea_SOHO1.png)
 
 Cablul ce conecteaza cele doua calculatoare se numeste: **Copper Crossover** (Cablu Incrucisat).
 
@@ -14,7 +14,7 @@ Cablul (fie el Crossover sau Straight-Through) se conectează fizic la portul **
 OK, sa revenim la ce facem in Cisco Packet Tracer: 
 
 1.Setam IP-urile pentru fiecare PC:
-![[mascaDeRetea.png]]
+![Setarea IP-ului pentru PC1](/assets/mascaDeRetea.png)
 
 | **Clasa** | **Daca incepe cu...** | **Autocompletare Masca** | Reteaua(Network ID)            | Host(gazda)       |
 | --------- | --------------------- | ------------------------ | ------------------------------ | ----------------- |
@@ -75,7 +75,7 @@ Daca PC2 primeste pachetul si este functional, el raspunde imediat cu propriul p
 
 Click pe PC1 ->Desktop -> Command Prompt  -> tastam ping urmata de IP-ul celuilalt calculator
 
-![[ping1.png]]
+![Ping reușit către PC2](/assets/ping1.png)
 
 FELICITARIII   ATI REUSIT SA FACEM IMPREUNA PRIMUL PROGRAM IN PACKET TRACER !!!!!!!!!!!!!!!!!!!! XD
 
@@ -83,12 +83,12 @@ OK, poate te inca esti confuz cu acest ping, dar el doar verifica daca functione
 
 Acum hai sa adaugam, o imprimata: 
 
-![[printer_cannot_connect.png]]
+![Eroare la conectarea imprimantei](/assets/printer_cannot_connect.png)
 
 De ce credeti ca da eroarea aceasta ?  Hmmmm
 
 Pai sa ne gandim, un calculator are o placa de retea, care arata care arata cam asa: 
-![[placa de retea.png]]
+![Portul RJ45 al unei plăci de rețea](/assets/placa de retea.png)
 
 Cum se si vede are doar un singur port.  In cazul actual noi daca am conectat cu un **Copper Crossover** cele doua calculatoare, nu mai ramane nici un port pentru a conecta imprimanta. AICI INTERVINE SWITCH-UL.
 
@@ -97,12 +97,12 @@ Ce este oare un SWITCH ?
 Un device fizic care conecteaza mai multe dispozitive pentru a crea o retea locala LAN(Local Area Network). In contextul actual ne trebuie un asemenea device deoarece, cum am precizat mai sus vrem sa conectam calculatoarele la imprimanta si nu avem cum. Cu ajutorul switch-ului conectam calculatoarele la acesta si dupa switch-ul la imprimanta. 
 
 Deci tot in acelasi proiect in packet tracer adaugam o imprimanta dar si un switch.
-![[Soho_cu_imprimanta.png]]
+![Schema SOHO cu Switch și Imprimantă](/assets/Soho_cu_imprimanta.png)
 Calculatoarele le-am configurat mai sus acum ramane doar imprimanta. Intai sa ne gandim la o adresa IPv4 pentru aceasta, 192.168.1.12. 
 Pentru a configura adresa IP la imprimanta dam click pe aceasta -> Config ->FastEthernet0 
 
 
-![[config_printer.png]]
+![Configurare IP Imprimantă](/assets/config_printer.png)
 
 
 Inchidem fereastra, apasam pe PC1 si vedem daca imprimanta este detectabila. 
@@ -113,7 +113,7 @@ Tot cu ajutorul lui ping, instructiunile sunt aceleasi ca cele de sus, doar ca d
 
 Siii..... TADAM !!!!! Totul a functionaatt, imprimanta a fost recunoscuta
 
-![[ping_imprimanta.png]]
+![Ping reușit către imprimantă](/assets/ping_imprimanta.png)
 
 Ok, acesta a fost primul programel in Packet Tracer, sper ca a fost distractiv.
 
